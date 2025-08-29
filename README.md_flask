@@ -1,0 +1,81 @@
+# VowelCounter
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Flask](https://img.shields.io/badge/Framework-Flask-red.svg)
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Motivation](#motivationproblem)
+- [Key Features](#key-features)
+- [Demo](#demo-link-or-gif)
+- [Prerequisites](#prerequisites)
+- [Installation Steps](#installation-steps)
+- [Usage Examples](#usage-examples)
+- [Configuration](#configuration)
+- [Roadmap Items](#roadmap-items)
+- [Contributing](#contribution-guidelines-link)
+- [License](#license)
+- [Author & Contact](#author--contact)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## Project Overview
+
+**VowelCounter**  
+A Flask web application that counts the number of vowels in any word you enter.
+
+---
+
+## Motivation/Problem
+
+Many beginners and educators need quick, interactive tools to demonstrate simple programming concepts, such as string manipulation and web backends. *VowelCounter* provides an approachable, web-based example for learning Flask and basic algorithm design, making it a friendly project for classrooms, tutorials, and learners.
+
+---
+
+## Key Features
+
+- **User-friendly Web Interface:**  
+  Enter a word and instantly see its vowel count.
+
+- **Case-insensitive Algorithm:**  
+  Counts both upper- and lowercase vowels for more accurate results.
+
+- **Lightweight Flask App:**  
+  Minimal dependencies and easy to customize or extend.
+
+---
+
+## Demo Link or GIF
+
+![VowelCounter Demo](demo/vowelcounter-demo.gif)
+<!-- Replace with the actual path to a GIF or screenshot if available -->
+
+---
+
+## Prerequisites
+
+- Python 3.8+
+- pip
+- [Flask](https://flask.palletsprojects.com/) library (see below)
+
+---
+
+## Installation Steps
+
+Clone the repository and install all requirements:
+
+```bash
+git clone https://github.com/yourusername/VowelCounter.git
+cd VowelCounter
+python -m venv venv
+# Activate the virtual environment:
+# On Windows:
+venv\Scripts\activate
+# On macOS or Linux:
+source venv/bin/activate
+pip install flask
